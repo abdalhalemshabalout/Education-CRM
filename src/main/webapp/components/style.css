@@ -1,0 +1,61 @@
+@charset "UTF-8"; /* Custom CSS */
+
+/* Sidebar Styles */
+.sidebar {
+  background-color: #333;
+  color: #fff;
+  height: 100vh;
+}
+
+.sidebar-heading {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.sidebar-menu li {
+  padding: 0.5rem 1rem;
+}
+
+.sidebar-menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar-menu li:hover {
+  background-color: #fff;
+  
+}
+
+.sidebar-menu li a:hover{
+  color: #62a0ea;
+}
+/* Content Styles */
+.content {
+  margin-top: 56px; /* Height of fixed navbar */
+}
+
+.dashboard-content {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Card Styles */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  color: #666;
+}
